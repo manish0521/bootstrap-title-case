@@ -88,6 +88,7 @@ function handleTyping2(event) {
 
 
                 answer = answer + userInput.toUpperCase() + "!";
+
             
             } 
             else if (userInput === "smile") {
@@ -95,7 +96,9 @@ function handleTyping2(event) {
 
                 answer = answer + userInput.toUpperCase() + ":)";
             }  
-            
+            else {
+                answer = answer + ":(";
+            }
             
     
 
