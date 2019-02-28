@@ -84,20 +84,20 @@ function handleTyping2(event) {
     
     
 
-            if ( userInput === "hello") {
+            if ( userInput === "dog") {
 
 
-                answer = answer + userInput.toUpperCase() + "!";
+                answer = answer + userInput.toUpperCase() + "🐶";
 
             
             } 
             else if (userInput === "smile") {
 
 
-                answer = answer + userInput.toUpperCase() + ":)";
+                answer = answer + userInput.toUpperCase() + "😀";
             }  
             else {
-                answer = answer + ":(";
+                answer = answer + "🇺🇸 Wakanda For eva...";
             }
             
     
